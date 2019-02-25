@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Employee.MainItems.MainItemsController">
+   <center>
+      <FlowPane hgap="20.0" prefHeight="200.0" prefWidth="200.0" vgap="20.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#goToElectricalDept" prefHeight="100.0" prefWidth="125.0" text="Employee.Electrical Dept">
+               <FlowPane.margin>
+                  <Insets />
+               </FlowPane.margin>
+            </Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#goToMechanicalDept" prefHeight="100.0" prefWidth="125.0" text="Mechanical Dept" />
+         </children>
+         <padding>
+            <Insets left="20.0" top="50.0" />
+         </padding>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </FlowPane>
+   </center>
+   <bottom>
+      <Button mnemonicParsing="false" text="Back" BorderPane.alignment="CENTER_RIGHT">
+         <BorderPane.margin>
+            <Insets right="30.0" />
+         </BorderPane.margin>
+      </Button>
+   </bottom>
+</BorderPane>
